@@ -69,7 +69,7 @@ for i in range(len(data)):
 colors = ['#0C5DA5', '#00B945', '#FF9500', '#FF2C00', '#845B97', '#474747', '#9e9e9e']
 x_conc = [0, 10, 20, 30, 40, 50]
 
-fig, (ax, ax1) = plt.subplots(2, 1, figsize=[3, 4])
+fig, (ax, ax1) = plt.subplots(2, 1, figsize=[3, 4.5])
 for i in range(len(data)):
     x_volts = np.linspace(3,-3,len(data[i]))
     
