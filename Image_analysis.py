@@ -34,7 +34,7 @@ def conc_data_files(x):
 root = os.getcwd()
 plt.style.use(['science', 'nature', 'std-colors'])
 
-base_filepath = '/Volumes/krauss/Sam/GMR4/2024/December/101224/'
+base_filepath = '/filepath/'
 conc_files_list = folder_list(base_filepath)
 conc_files_list = sorted(conc_files_list, key=first_2chars)
 
